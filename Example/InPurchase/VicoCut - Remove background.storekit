@@ -1,0 +1,705 @@
+{
+  "identifier" : "C35C7446",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1641035189",
+      "localizations" : [
+        {
+          "description" : "Puede guardar la foto 5 veces",
+          "displayName" : "Cinco veces",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Pode salvar a foto 5 vezes",
+          "displayName" : "Cinco vezes",
+          "locale" : "pt_PT"
+        },
+        {
+          "description" : "Boleh menyimpan foto 5 kali",
+          "displayName" : "Lima kali",
+          "locale" : "ms"
+        },
+        {
+          "description" : "Puede guardar la foto 5 veces",
+          "displayName" : "Cinco veces",
+          "locale" : "es_MX"
+        },
+        {
+          "description" : "Dapat menyimpan foto 5 kali",
+          "displayName" : "Lima kali",
+          "locale" : "id"
+        },
+        {
+          "description" : "Có thể lưu ảnh 5 lần",
+          "displayName" : "Năm lần",
+          "locale" : "vi"
+        },
+        {
+          "description" : "Can save photo 5 times",
+          "displayName" : "Five times",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Può salvare la foto 5 volte",
+          "displayName" : "Cinque volte",
+          "locale" : "it"
+        },
+        {
+          "description" : "Can save photo 5 times",
+          "displayName" : "Five times",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "Может сохранить фото 5 раз",
+          "displayName" : "Пять раз",
+          "locale" : "ru"
+        },
+        {
+          "description" : "Can save photo 5 times",
+          "displayName" : "Five times",
+          "locale" : "en_AU"
+        },
+        {
+          "description" : "Peut enregistrer la photo 5 fois",
+          "displayName" : "Cinq fois",
+          "locale" : "fr"
+        },
+        {
+          "description" : "保存处理照片5次",
+          "displayName" : "五次卡",
+          "locale" : "zh_CN"
+        },
+        {
+          "description" : "Kann Foto 5 Mal speichern",
+          "displayName" : "Fünf Mal",
+          "locale" : "de"
+        },
+        {
+          "description" : "写真を 5 回保存できます",
+          "displayName" : "5 回",
+          "locale" : "ja"
+        },
+        {
+          "description" : "Can save photo 5 times",
+          "displayName" : "Five times",
+          "locale" : "en_CA"
+        },
+        {
+          "description" : "사진을 5번 저장할 수 있음",
+          "displayName" : "다섯 번",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Pode salvar a foto 5 vezes",
+          "displayName" : "Cinco vezes",
+          "locale" : "pt_BR"
+        }
+      ],
+      "productID" : "com.once.purchase",
+      "referenceName" : "五次卡",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1641410758",
+      "localizations" : [
+        {
+          "description" : "Boleh menyimpan foto 10 kali",
+          "displayName" : "Sepuluh kali ganda",
+          "locale" : "ms"
+        },
+        {
+          "description" : "Dapat menyimpan foto 10 kali",
+          "displayName" : "Sepuluh kali",
+          "locale" : "id"
+        },
+        {
+          "description" : "Может сохранять фотографии 10 раз",
+          "displayName" : "Десять раз",
+          "locale" : "ru"
+        },
+        {
+          "description" : "Puede guardar fotos 10 veces",
+          "displayName" : "Diez veces",
+          "locale" : "es_MX"
+        },
+        {
+          "description" : "Kann Fotos 10 Mal speichern",
+          "displayName" : "Zehn mal",
+          "locale" : "de"
+        },
+        {
+          "description" : "Pode salvar fotos 10 vezes",
+          "displayName" : "Dez vezes",
+          "locale" : "pt_BR"
+        },
+        {
+          "description" : "Can save photos 10 times",
+          "displayName" : "Ten times",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Pode salvar fotos 10 vezes",
+          "displayName" : "Dez vezes",
+          "locale" : "pt_PT"
+        },
+        {
+          "description" : "保存处理后的照片10次",
+          "displayName" : "十次卡",
+          "locale" : "zh_CN"
+        },
+        {
+          "description" : "사진을 10번 저장할 수 있음",
+          "displayName" : "열 번",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Può salvare le foto 10 volte",
+          "displayName" : "Dieci volte",
+          "locale" : "it"
+        },
+        {
+          "description" : "Puede guardar fotos 10 veces",
+          "displayName" : "Diez veces",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Có thể lưu ảnh 10 lần",
+          "displayName" : "Mười lần",
+          "locale" : "vi"
+        },
+        {
+          "description" : "Can save photos 10 times",
+          "displayName" : "Ten times",
+          "locale" : "en_AU"
+        },
+        {
+          "description" : "Can save photos 10 times",
+          "displayName" : "Ten times",
+          "locale" : "en_CA"
+        },
+        {
+          "description" : "Can save photos 10 times",
+          "displayName" : "Ten times\"",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "Peut enregistrer des photos 10 fois",
+          "displayName" : "Dix fois",
+          "locale" : "fr"
+        },
+        {
+          "description" : "写真を 10 回保存できます",
+          "displayName" : "10 回",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "com.10times.purchase",
+      "referenceName" : "十次卡",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "29.99",
+      "familyShareable" : true,
+      "internalID" : "1632155494",
+      "localizations" : [
+        {
+          "description" : "Desbloquear todas las funciones",
+          "displayName" : "Miembro permanente",
+          "locale" : "es_MX"
+        },
+        {
+          "description" : "Unlock all features for unlimited enjoyment",
+          "displayName" : "Permanent Member",
+          "locale" : "en_AU"
+        },
+        {
+          "description" : "解锁全部功能，无限畅享",
+          "displayName" : "永久会员",
+          "locale" : "zh_CN"
+        },
+        {
+          "description" : "Buka kunci semua ciri",
+          "displayName" : "Ahli Tetap",
+          "locale" : "ms"
+        },
+        {
+          "description" : "Débloquez toutes les fonctionnalités",
+          "displayName" : "Membre permanent",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Desbloqueie todos os recursos",
+          "displayName" : "Membro permanente",
+          "locale" : "pt_PT"
+        },
+        {
+          "description" : "Sblocca tutte le funzionalità",
+          "displayName" : "Membro permanente",
+          "locale" : "it"
+        },
+        {
+          "description" : "Desbloquear todas las funciones",
+          "displayName" : "Miembro permanente",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Genießen Sie unbegrenzte Zeiten.",
+          "displayName" : "Ständiges Mitglied",
+          "locale" : "de"
+        },
+        {
+          "description" : "Unlock all features for unlimited enjoyment",
+          "displayName" : "Permanent Member",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "すべての機能のロックを解除して、無制限に楽しむ",
+          "displayName" : "正会員",
+          "locale" : "ja"
+        },
+        {
+          "description" : "Buka kunci semua fitur",
+          "displayName" : "Anggota Tetap",
+          "locale" : "id"
+        },
+        {
+          "description" : "Mở khóa tất cả các tính năng",
+          "displayName" : "Thành viên cố định",
+          "locale" : "vi"
+        },
+        {
+          "description" : "Unlock all features for unlimited enjoyment",
+          "displayName" : "Permanent Member",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "Desbloqueie todos os recursos",
+          "displayName" : "Membro permanente",
+          "locale" : "pt_BR"
+        },
+        {
+          "description" : "무제한으로 즐길 수 있는 모든 기능 잠금 해제",
+          "displayName" : "정회원",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Разблокировать все функции",
+          "displayName" : "Постоянный член",
+          "locale" : "ru"
+        },
+        {
+          "description" : "Unlock all features for unlimited enjoyment",
+          "displayName" : "Permanent Member",
+          "locale" : "en_CA"
+        }
+      ],
+      "productID" : "com.oncetime.purchase",
+      "referenceName" : "永久",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1631264265",
+    "_developerTeamID" : "HH34JHH4ZR",
+    "_lastSynchronizedDate" : 715440882.49074602
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "20972379",
+      "localizations" : [
+
+      ],
+      "name" : "线上",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "1632156772",
+          "introductoryOffer" : {
+            "internalID" : "311780C1",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Quarterly renewal, cancell at anytime",
+              "displayName" : "Seasonal Member",
+              "locale" : "en_CA"
+            },
+            {
+              "description" : "분기별로 자동 갱신되며 언제든지 취소 가능",
+              "displayName" : "분기 멤버십",
+              "locale" : "ko"
+            },
+            {
+              "description" : "Quarterly renewal, cancell at anytime",
+              "displayName" : "Seasonal Member",
+              "locale" : "en_AU"
+            },
+            {
+              "description" : "Rinnovo trimestrale, annulla quando vuoi.",
+              "displayName" : "Abbonamento trimestrale",
+              "locale" : "it"
+            },
+            {
+              "description" : "四半期ごとに自動的に更新され、いつでもキャンセルできます",
+              "displayName" : "四半期会員",
+              "locale" : "ja"
+            },
+            {
+              "description" : "Quarterly renewal, cancell at anytime",
+              "displayName" : "Seasonal Member",
+              "locale" : "en_GB"
+            },
+            {
+              "description" : "Продление ежеквартально, отмена в любое время",
+              "displayName" : "Ежеквартальное членство",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Quartalsweise Erneuerung, jederzeit kündbar",
+              "displayName" : "Vierteljährige Mitgliedschaft",
+              "locale" : "de"
+            },
+            {
+              "description" : "Anggota suku tahun, batalkan bila-bila masa",
+              "displayName" : "Keahlian Suku Tahunan",
+              "locale" : "ms"
+            },
+            {
+              "description" : "Renovación trimestral, cancela cuando quieras",
+              "displayName" : "Membresía trimestral",
+              "locale" : "es_MX"
+            },
+            {
+              "description" : "Renovación trimestral, cancela cuando quieras",
+              "displayName" : "Membresía trimestral",
+              "locale" : "es_ES"
+            },
+            {
+              "description" : "Adhésion trimestrielle, résiliez tout moment.",
+              "displayName" : "Adhésion trimestrielle",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Renovação trimestral, cancelar quando quiser.",
+              "displayName" : "Adesão trimestral",
+              "locale" : "pt_BR"
+            },
+            {
+              "description" : "Gia hạn hàng quý, hủy bất cứ lúc nào",
+              "displayName" : "Thành viên hàng quý",
+              "locale" : "vi"
+            },
+            {
+              "description" : "Renovação trimestral, cancelar quando quiser.",
+              "displayName" : "Adesão trimestral",
+              "locale" : "pt_PT"
+            },
+            {
+              "description" : "每季度自動續費,可隨時取消訂閱",
+              "displayName" : "季度會員",
+              "locale" : "zh_CN"
+            },
+            {
+              "description" : "Perpanjangan kuartalan, batalkan kapan saja",
+              "displayName" : "Keanggotaan Triwulanan",
+              "locale" : "id"
+            },
+            {
+              "description" : "每季度自动续费,可随时取消订阅",
+              "displayName" : "季度会员",
+              "locale" : "zh_CN"
+            },
+            {
+              "description" : "Quarterly renewal, cancell at anytime",
+              "displayName" : "Seasonal Member",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Adhésion trimestrielle, résiliez tout moment.",
+              "displayName" : "Adhésion trimestrielle",
+              "locale" : "fr"
+            }
+          ],
+          "productID" : "com.quarterly.subscription",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "包季",
+          "subscriptionGroupID" : "20972379",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "24.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "1632156486",
+          "introductoryOffer" : {
+            "displayPrice" : "22.49",
+            "internalID" : "62F43525",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "payAsYouGo",
+            "subscriptionPeriod" : "P1Y"
+          },
+          "localizations" : [
+            {
+              "description" : "每年度自动续费,可随时取消订阅",
+              "displayName" : "年度会员",
+              "locale" : "zh_CN"
+            },
+            {
+              "description" : "Annual automatic renewal, cancell at anytime",
+              "displayName" : "Annual Member",
+              "locale" : "en_AU"
+            },
+            {
+              "description" : "Annual automatic renewal, cancell at anytime",
+              "displayName" : "Annual Member",
+              "locale" : "en_GB"
+            },
+            {
+              "description" : "Pembaruan tahunan, batalkan kapan saja",
+              "displayName" : "Anggota Tahunan",
+              "locale" : "id"
+            },
+            {
+              "description" : "Rinnovo annuale, disdire in qualsiasi momento",
+              "displayName" : "Membro annuale",
+              "locale" : "it"
+            },
+            {
+              "description" : "Pembaharuan tahunan, batal bila-bila masa",
+              "displayName" : "Ahli Tahunan",
+              "locale" : "ms"
+            },
+            {
+              "description" : "毎年自動更新され、いつでもサブスクリプションをキャンセルできます",
+              "displayName" : "年間会員",
+              "locale" : "ja"
+            },
+            {
+              "description" : "Renovação anual, cancele a qualquer momento",
+              "displayName" : "Membro Anual",
+              "locale" : "pt_PT"
+            },
+            {
+              "description" : "Jährliche Erneuerung, jederzeit kündbar",
+              "displayName" : "Jährliches Mitglied",
+              "locale" : "de"
+            },
+            {
+              "description" : "每年度自動續費,可隨時取消訂閱",
+              "displayName" : "年度會員",
+              "locale" : "zh_CN"
+            },
+            {
+              "description" : "Ежегодное продление, отмена в любое время",
+              "displayName" : "Годовой участник",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Renovación anual, cancela cualquier momento",
+              "displayName" : "Miembro Anual",
+              "locale" : "es_MX"
+            },
+            {
+              "description" : "Renouvellement annuel, annulez à tout moment.",
+              "displayName" : "Membre annuel",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Annual automatic renewal, cancell at anytime",
+              "displayName" : "Annual Member",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Renouvellement annuel, annulez à tout moment.",
+              "displayName" : "Membre annuel",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Tự động gia hạn hàng năm, hủy bất cứ lúc nào",
+              "displayName" : "Thành viên hàng năm",
+              "locale" : "vi"
+            },
+            {
+              "description" : "Renovación anual, cancela cualquier momento",
+              "displayName" : "Miembro Anual",
+              "locale" : "es_ES"
+            },
+            {
+              "description" : "Annual automatic renewal, cancell at anytime",
+              "displayName" : "Annual Member",
+              "locale" : "en_CA"
+            },
+            {
+              "description" : "매년 자동 갱신, 언제든지 구독을 취소 할 수 있습니다",
+              "displayName" : "연간 회원",
+              "locale" : "ko"
+            },
+            {
+              "description" : "Renovação anual, cancele a qualquer momento",
+              "displayName" : "Membro Anual",
+              "locale" : "pt_BR"
+            }
+          ],
+          "productID" : "com.annual.subscription",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "包年",
+          "subscriptionGroupID" : "20972379",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.49",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "1632156964",
+          "introductoryOffer" : {
+            "displayPrice" : "1.99",
+            "internalID" : "835CE5E0",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "payAsYouGo",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Gia hạn hàng tháng, hủy bỏ bất kỳ lúc nào",
+              "displayName" : "Thành viên Hàng tháng",
+              "locale" : "vi"
+            },
+            {
+              "description" : "Renovação mensal, cancele a qualquer momento",
+              "displayName" : "Assinatura mensal",
+              "locale" : "pt_PT"
+            },
+            {
+              "description" : "每月自动续费,可随时取消订阅",
+              "displayName" : "包月会员",
+              "locale" : "zh_CN"
+            },
+            {
+              "description" : "Pembaharuan bulanan, batal bila-bila masa",
+              "displayName" : "Keahlian Bulanan",
+              "locale" : "ms"
+            },
+            {
+              "description" : "매월 자동 갱신, 구독은 언제든지 취소 가능",
+              "displayName" : "월간 멤버십",
+              "locale" : "ko"
+            },
+            {
+              "description" : "Renovação mensal, cancele a qualquer momento",
+              "displayName" : "Assinatura mensal",
+              "locale" : "pt_BR"
+            },
+            {
+              "description" : "Ежемесячное продление, отмена в любое время.",
+              "displayName" : "Ежемесячная подписка",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Monthly renewal, cancel at anytime",
+              "displayName" : "Monthly Member",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "Renovación mensual, cancela cuando quieras",
+              "displayName" : "Membresía mensual",
+              "locale" : "es_MX"
+            },
+            {
+              "description" : "Monatsverlängerung, jederzeit kündbar",
+              "displayName" : "Monatliche Mitgliedschaft",
+              "locale" : "de"
+            },
+            {
+              "description" : "Monthly renewal, cancel at anytime",
+              "displayName" : "Monthly Member",
+              "locale" : "en_CA"
+            },
+            {
+              "description" : "Monthly renewal, cancel at anytime",
+              "displayName" : "Monthly Member",
+              "locale" : "en_AU"
+            },
+            {
+              "description" : "每月自動續費,可隨時取消訂閱",
+              "displayName" : "包月會員",
+              "locale" : "zh_CN"
+            },
+            {
+              "description" : "Rinnovo mensile, disdetta qualsiasi momento",
+              "displayName" : "Abbonamento mensile",
+              "locale" : "it"
+            },
+            {
+              "description" : "Renouvellement mensuel, annulez tout moment",
+              "displayName" : "Adhésion mensuelle",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Renouvellement mensuel, annulez tout moment",
+              "displayName" : "Adhésion mensuelle",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Monthly renewal, cancel at anytime",
+              "displayName" : "Monthly Member",
+              "locale" : "en_GB"
+            },
+            {
+              "description" : "Pembaruan bulanan, batalkan kapan saja",
+              "displayName" : "Keanggotaan Bulanan",
+              "locale" : "id"
+            },
+            {
+              "description" : "毎月の自動更新、サブスクリプションはいつでもキャンセルできます",
+              "displayName" : "月額会員",
+              "locale" : "ja"
+            },
+            {
+              "description" : "Renovación mensual, cancela cuando quieras",
+              "displayName" : "Membresía mensual",
+              "locale" : "es_ES"
+            }
+          ],
+          "productID" : "com.monthly.subscription",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "包月",
+          "subscriptionGroupID" : "20972379",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
