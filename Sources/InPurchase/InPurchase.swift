@@ -1,5 +1,5 @@
 //
-//  StoreKitTool.swift
+//  InPurchase.swift
 //  Eraser
 //
 //  Created by 狄烨 on 2023/8/2.
@@ -10,13 +10,13 @@ import StoreKit
 import SwiftUI
 public typealias ProductId = String
 public typealias ShouldAddStorePaymentHandler = (_ payment: SKPayment, _ product: SKProduct) -> Bool
-
+public let InPurchaseStorage = "isPro.InPurchase"
 public class InPurchase: ObservableObject {
 
     //判断有买过没,是否展示试用期---暂时不用
-    @AppStorage("isPayed.InPurchase") public var isPayed: Bool = false
+//    @AppStorage("isPayed.InPurchase") public var isPayed: Bool = false
     //判断是否VIP用户,内购有限期内
-    @AppStorage("isPro.InPurchase") public var isPro: Bool = false
+    @AppStorage(InPurchaseStorage) public var isPro: Bool = false
     
     public private(set) var purchaseState: PurchaseState = .unknown
     
@@ -35,12 +35,12 @@ public class InPurchase: ObservableObject {
     public var shouldAddStorePaymentHandler: ShouldAddStorePaymentHandler?
     
     private var transactionListener: Task<Void, Error>? = nil
-    private var productIds: [ProductId] = ProductIdsFile.read(filename: "ProductIds")
+    private var productIds: [ProductId] = ReadIdsFile.read(filename: "ProductIds")
     
-    public static let shared = InPurchase()
+//    public static let shared = InPurchase()
     
-    private init() {
-        paymentQueue = PaymentQueue(storeKitTool: self)
+    public init() {
+        paymentQueue = PaymentQueue(inPurchase: self)
 
         Task{
             // Listen for App Store transactions
@@ -161,7 +161,7 @@ extension InPurchase{
     async throws -> (transaction: StoreKit.Transaction?, purchaseState: PurchaseState)  {
         
         guard hasStarted else {
-            logger.log("Please call StoreKitTool.start(ids:) before use.")
+            logger.log("Please call InPurchase.start(ids:) before use.")
             return (nil, .notStarted)
         }
         

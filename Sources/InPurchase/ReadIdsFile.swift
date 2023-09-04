@@ -6,7 +6,7 @@
 //
 
 import Foundation
-public struct ProductIdsFile {
+public struct ReadIdsFile {
 
     public static func read(filename: String) -> [ProductId] {
         guard let plistURL = Bundle.main.url(forResource: filename, withExtension: "plist"),

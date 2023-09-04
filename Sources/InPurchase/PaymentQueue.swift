@@ -10,11 +10,11 @@ import StoreKit
 
 public class PaymentQueue: NSObject, SKPaymentTransactionObserver {
 
-    private weak var storeKitTool: InPurchase?
+    private weak var inPurchase: InPurchase?
     
-    public convenience init(storeKitTool: InPurchase) {
+    public convenience init(inPurchase: InPurchase) {
         self.init()
-        self.storeKitTool = storeKitTool
+        self.inPurchase = inPurchase
     }
     
     public override init() {
@@ -33,9 +33,9 @@ public class PaymentQueue: NSObject, SKPaymentTransactionObserver {
                     
                     // Let the StoreKit2-based StoreHelper know about this purchase or subscription renewal
                     Task { @MainActor in
-                        if let storeKitTool {
-                            storeKitTool.productPurchased(productId, transactionId: transactionId)
-                            await storeKitTool.handleStoreKit1Transactions(productId: productId, date: Date(), status: .purchased, transaction: transaction)
+                        if let inPurchase {
+                            inPurchase.productPurchased(productId, transactionId: transactionId)
+                            await inPurchase.handleStoreKit1Transactions(productId: productId, date: Date(), status: .purchased, transaction: transaction)
                         }
                     }
 
@@ -51,7 +51,7 @@ public class PaymentQueue: NSObject, SKPaymentTransactionObserver {
     }
 
     public func paymentQueue(_ queue: SKPaymentQueue, shouldAddStorePayment payment: SKPayment, for product: SKProduct) -> Bool {
-        if let handler = storeKitTool?.shouldAddStorePaymentHandler { return handler(payment, product) }
+        if let handler = inPurchase?.shouldAddStorePaymentHandler { return handler(payment, product) }
         return true
     }
 }
