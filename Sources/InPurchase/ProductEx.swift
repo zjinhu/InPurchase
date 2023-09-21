@@ -7,7 +7,6 @@
 
 import Foundation
 import StoreKit
-
 public extension Product {
     //试用天数
     var tryDays: Int {
@@ -29,17 +28,5 @@ public extension Product {
         get async {
             await (try? subscription?.status.first?.state == RenewalState.subscribed) ?? false
         }
-    }
-}
-
-extension UIWindowScene {
-    /// Get UIWindowScene
-    static var currentWindowSence: UIWindowScene?  {
-        for scene in UIApplication.shared.connectedScenes{
-            if scene.activationState == .foregroundActive{
-                return scene as? UIWindowScene
-            }
-        }
-        return nil
     }
 }

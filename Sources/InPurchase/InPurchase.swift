@@ -42,7 +42,7 @@ public class InPurchase: ObservableObject {
     public init() {
         paymentQueue = PaymentQueue(inPurchase: self)
 
-        Task{
+        Task(priority: .background){
             // Listen for App Store transactions
             transactionListener = await handleTransactions()
             await startAsync()
@@ -61,7 +61,7 @@ extension InPurchase{
     }
     
     @MainActor public func refreshProductsFromAppStore() {
-        Task.init {
+        Task {
             await requestProductsFromAppStore(productIds: productIds)
             guard let products else { return }
             await fetchUserStatus()
@@ -117,18 +117,7 @@ extension InPurchase{
 
 //MARK: 产品
 extension InPurchase{
-    
-    @available(macOS, unavailable)
-    @available(watchOS, unavailable)
-    @available(tvOS, unavailable)
-    public func showManageSubscriptions(){
-        if let scene = UIWindowScene.currentWindowSence{
-            Task.detached {
-                try await AppStore.showManageSubscriptions(in: scene)
-            }
-        }
-    }
-    
+
     public func restore(){
         Task{
             try await AppStore.sync()
