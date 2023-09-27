@@ -8,7 +8,7 @@
 import SwiftUI
 import InPurchase
 struct ContentView: View {
-    @StateObject var storeKit = InPurchase.shared
+    @StateObject var storeKit = InPurchase()
     var body: some View {
         VStack(spacing: 15){
 

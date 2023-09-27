@@ -19,11 +19,7 @@ struct PurchaseLog {
 }
  
 extension PurchaseLog {
-    func log(_ message: String, level: OSLogType = .default,  isPrivate: Bool = false) {
-        if isPrivate {
-            logger.log(level: level, "\(message, privacy: .private)")
-        } else {
-            logger.log(level: level, "\(message, privacy: .public)")
-        }
+    func log(_ message: String){
+        logger.log("💰\(message)")
     }
 }
