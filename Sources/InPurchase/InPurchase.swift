@@ -87,7 +87,7 @@ extension InPurchase{
         
         do {
             let items = try await Product.products(for: productIds)
-            products = items.sorted(by: { $0.price < $1.price })
+            products = items.sorted(by: { $0.price > $1.price })
             isAppStoreAvailable = true
             logger.log(StoreNotification.requestProductsSuccess.info())
         } catch {
