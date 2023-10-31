@@ -65,7 +65,9 @@ extension InPurchase{
             await requestProductsFromAppStore(productIds: productIds)
             guard let products else { return }
             await fetchUserStatus()
-            selectProduct = products.first
+            selectProduct = products.first(where: { pd in
+                (pd.subscription?.introductoryOffer?.period.value ?? 0) >= 3 //默认选中试用天数不为0的
+            })
         }
     }
     
@@ -74,7 +76,9 @@ extension InPurchase{
         await requestProductsFromAppStore(productIds: productIds)
         guard let products else { return }
         await fetchUserStatus()
-        selectProduct = products.first
+        selectProduct = products.first(where: { pd in
+            (pd.subscription?.introductoryOffer?.period.value ?? 0) >= 3 //默认选中试用天数不为0的
+        })
     }
     
     @MainActor public func requestProductsFromAppStore(productIds: [ProductId]) async {
