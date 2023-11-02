@@ -7,8 +7,6 @@
 ![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange.svg)
 ![SwiftUI 3.0+](https://img.shields.io/badge/SwiftUI-3.0%2B-orange.svg)
 
-## [中文说明](https://github.com/jackiehu/InPurchase/blob/main/README_ZH.md)
-
 ## Example
 
 ## Usage
