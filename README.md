@@ -3,7 +3,7 @@
 
 [![SPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)
 ![Xcode 14.0+](https://img.shields.io/badge/Xcode-14.0%2B-blue.svg)
-![iOS 14.0+](https://img.shields.io/badge/iOS-14.0%2B-blue.svg)
+![iOS 15.0+](https://img.shields.io/badge/iOS-14.0%2B-blue.svg)
 ![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange.svg)
 ![SwiftUI 3.0+](https://img.shields.io/badge/SwiftUI-3.0%2B-orange.svg)
 
@@ -11,24 +11,9 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Usage
 
-
 ## Install
-
-### Cocoapods
-
-1. Add `pod 'InPurchase'` in Podfile
-
-2. Execute `pod install or pod update`
-
-3. Import `import InPurchase`
-
-### Swift Package Manager
-
-Starting from Xcode 11, the Swift Package Manager is integrated, which is very convenient to use. InPurchase also supports integration via Swift Package Manager.
 
 Select `File > Swift Packages > Add Pacakage Dependency` in Xcode's menu bar, and enter in the search bar
 
@@ -37,7 +22,6 @@ Select `File > Swift Packages > Add Pacakage Dependency` in Xcode's menu bar, an
 ### Manual Install
 
 InPurchase also supports manual Install, just drag the InPurchase folder in the Sources folder into the project that needs to be installed
-
 
 ## Author
 
